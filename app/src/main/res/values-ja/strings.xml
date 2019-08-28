@@ -18,7 +18,7 @@
     <string name="create_new_contact">新しい連絡先を作成</string>
     <string name="add_to_existing_contact">既存の連絡先に追加</string>
     <string name="must_make_default_dialer">You have to make this app the default dialer app to make use of blocked numbers.</string>
-    <string name="set_as_default">Set as default</string>
+    <string name="set_as_default">デフォルトとして設定</string>
 
     <!-- Placeholders -->
     <string name="no_contacts_found">連絡先が見つかりません.</string>
@@ -96,7 +96,7 @@
     <!-- Search -->
     <string name="search_contacts">連絡先を検索</string>
     <string name="search_favorites">お気に入りを検索</string>
-    <string name="search_groups">Search groups</string>
+    <string name="search_groups">グループを検索</string>
 
     <!-- Export / Import -->
     <string name="import_contacts">連絡先をインポート</string>
@@ -147,21 +147,21 @@
     <string name="add_a_blocked_number">ブロックする番号を追加</string>
     <string name="block_number">Block number</string>
     <string name="block_numbers">Block numbers</string>
-    <string name="blocked_numbers">Blocked numbers</string>
+    <string name="blocked_numbers">ブロックした番号</string>
 
     <!-- Confirmation dialog -->
-    <string name="delete_contacts_confirmation">Are you sure you want to delete %s?</string>    <!-- Are you sure you want to delete 5 contacts? -->
+    <string name="delete_contacts_confirmation">%sを削除しますか？</string>    <!-- Are you sure you want to delete 5 contacts? -->
     <string name="delete_from_all_sources">The contact will be removed from all contact sources.</string>
 
     <!-- Are you sure you want to delete 5 contacts? -->
     <plurals name="delete_contacts">
-        <item quantity="one">%d contact</item>
-        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d 件の連絡先</item>
+        <item quantity="other">%d 件の連絡先</item>
     </plurals>
 
     <plurals name="delete_groups">
-        <item quantity="one">%d group</item>
-        <item quantity="other">%d groups</item>
+        <item quantity="one">%d 個のグループ</item>
+        <item quantity="other">%d 個のグループ</item>
     </plurals>
 
     <!-- FAQ -->
@@ -172,7 +172,7 @@
     <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
     <string name="app_title">Simple Contacts Pro - Manage your contacts easily</string>
     <!-- Short description has to have less than 80 chars -->
-    <string name="app_short_description">An app for managing your contacts without ads, respecting your privacy.</string>
+    <string name="app_short_description">あなたのプライバシーを尊重し、広告なしで連絡先を管理するためのアプリ。</string>
     <string name="app_long_description">
         連絡先を作成または管理するためのシンプルなアプリです。連絡先はお使いの端末上にのみ保存されますが、Googleや他のアカウントと同期することもできます。お気に入りの連絡先を別のリストとして表示することができます。
 
